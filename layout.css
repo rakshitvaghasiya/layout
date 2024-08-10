@@ -5,6 +5,8 @@
 }
 .header-main{
     display: block;
+    position: sticky;
+    top: 0;
     clear: both;
 }
 .header-main .main-inner{
@@ -23,12 +25,6 @@
     width: 1200;
     margin: 0 auto;
     box-sizing: border-box;
-}
-.container-1{
-    display: block;
-    margin: 0 100px;
-    box-sizing: border-box;
-    max-width: 1115px;
 }
 .header-main .main-inner .bottom-header .bottom-inner{
     display: flex;
@@ -190,6 +186,8 @@
 .block-main{
     display: block;
     clear: both;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .block-main .inner{
     display: block;
@@ -465,6 +463,7 @@
     clear: both;
     height: auto;
     background-color: #E1E7E4;
+    overflow-x: hidden;
 }
 .blockmain-2 .blockmain-2_inner{
     display: block;
@@ -924,7 +923,8 @@
 /* <---------blockmain-3------------> */
 .blockmain-3{
     display: block;
-    clear: both;   
+    clear: both;
+    overflow-x: hidden;   
 }
  .inner .block{
     display: block;
@@ -964,7 +964,7 @@
 .blockmain-3 .inner .block  .grilled{
     position: absolute;
     top: 50%;
-    transform: translate(310px,-50%);
+    transform: translate(260px,-50%);
     display: block;
     width: 546px;
     height: 364px;
@@ -1013,7 +1013,7 @@
 }
 @media(max-width:1199px){
     .blockmain-3 .inner .block .grilled {
-        transform: translate(216px,-50%);
+        transform: translate(200px,-50%);
     }
 }
 @media(max-width:991px){
@@ -1693,6 +1693,7 @@ width: 645px;
     padding-bottom: 100px;
     clear: both;
     display: block;
+    overflow-x: hidden;
 }
 .blockmain-6 marquee{
     color: #d12525;
@@ -1711,6 +1712,11 @@ width: 645px;
         font-size: 130px;
         line-height: 85px;
         font-weight: 700;
+        overflow: hidden;
+}
+.blockmain-6 marquee>span{
+    overflow: hidden;
+
 }
 .blockmain-6 .inner{
     background-color: #212121;
@@ -2240,8 +2246,7 @@ width: 645px;
 .blockmain-7{
     clear: both;
     display: block;
-    margin: 0 auto;
-}
+    margin: 0 auto;}
 .blockmain-7 .blockmain-7-inner{
     display: flex;
     flex-wrap: wrap;
