@@ -435,7 +435,7 @@
     .block-main .inner .chicken {
         height: 230px;
         width: 230px;
-        transform: translate(30%,-40%);
+        transform: translate(20%,-40%);
     }
         .block-main .inner .btn a{
             padding: 15px 35px 15px 35px;
