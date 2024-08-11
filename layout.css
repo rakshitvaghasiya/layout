@@ -1960,13 +1960,6 @@ width: 645px;
     background-color: #D12525;
     transition-duration: 0.8s;
 }
-.blockmain-6  .meals .today .green .icon{
-    display: block;
-    font-size: 20px;
-    position: absolute;
-    color:  white ;
-    left: 15%;
-}
 .blockmain-6  .meals .fash{
     display: block;
     position: relative;
@@ -2184,7 +2177,7 @@ width: 645px;
             padding: 15px 40px 15px 40px;
         }
         .blockmain-6 .meals .today .green {
-            bottom: 40%;
+            bottom: 30%;
         }
         .blockmain-6 .meals .fash .darkwood {
             width: 410px;
