@@ -435,7 +435,7 @@
     .block-main .inner .chicken {
         height: 230px;
         width: 230px;
-        transform: translate(20%,-40%);
+        transform: translate(30%,-40%);
     }
         .block-main .inner .btn a{
             padding: 15px 35px 15px 35px;
@@ -2141,6 +2141,7 @@ width: 645px;
         }
         .blockmain-6 .meals .today .green {
             bottom: 30%;
+            z-index: 1;
         }
         .blockmain-6 .meals .today .green a {
             padding: 15px 50px 15px 50px;
